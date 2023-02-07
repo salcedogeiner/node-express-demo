@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 var corsOptions = {
-    origin: "*",
-    methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
+    "origin": "*",
+    "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
   }
 
 app.use(cors(corsOptions));
