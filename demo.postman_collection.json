@@ -1,0 +1,76 @@
+{
+	"variables": [],
+	"info": {
+		"name": "demo",
+		"_postman_id": "977bdfce-a906-8d2c-fe7f-b0dfd462c023",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/api/validarQR",
+			"request": {
+				"url": "http://localhost:8000/api/validarQR",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/generarQR",
+			"request": {
+				"url": "http://localhost:8000/api/generarQR",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/leerQR",
+			"request": {
+				"url": "http://localhost:8000/api/leerQR",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"amount\": \"9000\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8000/api/ConfirmarQR",
+			"request": {
+				"url": "http://localhost:8000/api/ConfirmarQR",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"action\": true\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
