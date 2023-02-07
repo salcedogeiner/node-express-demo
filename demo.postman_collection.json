@@ -10,7 +10,7 @@
 		{
 			"name": "http://localhost:8000/api/validarQR",
 			"request": {
-				"url": "http://localhost:8000/api/validarQR",
+				"url": "http://ec2-44-200-21-232.compute-1.amazonaws.com/api/validarQR",
 				"method": "GET",
 				"header": [],
 				"body": {},
@@ -21,7 +21,7 @@
 		{
 			"name": "http://localhost:8000/api/generarQR",
 			"request": {
-				"url": "http://localhost:8000/api/generarQR",
+				"url": "http://ec2-44-200-21-232.compute-1.amazonaws.com/api/generarQR",
 				"method": "POST",
 				"header": [],
 				"body": {
@@ -35,7 +35,7 @@
 		{
 			"name": "http://localhost:8000/api/leerQR",
 			"request": {
-				"url": "http://localhost:8000/api/leerQR",
+				"url": "http://ec2-44-200-21-232.compute-1.amazonaws.com/api/leerQR",
 				"method": "POST",
 				"header": [
 					{
@@ -55,7 +55,7 @@
 		{
 			"name": "http://localhost:8000/api/ConfirmarQR",
 			"request": {
-				"url": "http://localhost:8000/api/ConfirmarQR",
+				"url": "http://ec2-44-200-21-232.compute-1.amazonaws.com/api/ConfirmarQR",
 				"method": "POST",
 				"header": [
 					{
