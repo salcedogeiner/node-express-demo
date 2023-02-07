@@ -31,8 +31,8 @@ app.get("/api/validarQR", (req, res, next) => {
 });
 
 app.post("/api/generarQR/", (req, res, next) => {    
-    var sql ='UPDATE states set state = ?'
-    var params =["pendiente"]
+    var sql ='UPDATE states set state = ?, amount = ?'
+    var params =["pendiente", "0"]
     db.run(sql, params, function (err, result) {
         if (err){
             res.status(400).json({"error": err.message})
